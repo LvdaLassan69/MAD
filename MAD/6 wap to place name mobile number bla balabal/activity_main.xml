@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <EditText android:id="@+id/etName" android:hint="Name"/>
+    <EditText android:id="@+id/etAge" android:hint="Age" android:inputType="number"/>
+    <EditText android:id="@+id/etMobile" android:hint="Mobile" android:inputType="phone"/>
+</LinearLayout>
